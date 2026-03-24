@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HBS Entrepreneurship Summit 2026 — Digital Program
 
-## Getting Started
+A static Next.js (App Router) site for the Harvard Business School Entrepreneurship Summit 2026.
 
-First, run the development server:
+## Tech Stack
+
+- Next.js 16 (App Router, static export)
+- TypeScript
+- Tailwind CSS v4
+- Google Fonts (Playfair Display)
+
+## Features
+
+- **Schedule tab** — filterable/searchable event list with save (star) functionality
+- **Speakers tab** — sortable by event type, industry, or A–Z
+- **Saved tab** — localStorage-persisted saved events
+- **Map tab** — embedded Google Maps with building filters
+- **Event detail pages** — `/event/[id]`
+- **Speaker profile pages** — `/speaker/[name]`
+
+## Admin Workflow
+
+### 1. Edit speaker/event data
+
+All data lives in `data/schedule.json`. Edit speaker bios, company descriptions, URLs, and event details there.
+
+### 2. Add the summit logo
+
+Drop a square PNG at `public/logo.png` (recommended: 144×144px or larger).
+
+### 3. Add speaker photos
+
+Place headshot images (JPG/PNG) in `public/speakers/` using the naming convention `first-last.jpg` (lowercase, hyphenated). Example: `jd-ross.jpg`, `shayne-coplan.jpg`.
+
+**Automatic matching:** If you have a folder of photos with arbitrary filenames, run:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+node scripts/match-photos.js ./path/to/photos
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This fuzzy-matches photo filenames to speaker names and copies them to `public/speakers/` with correct names.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 4. Validate data
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+node scripts/validate-data.js
+```
 
-## Learn More
+Checks for missing bios, invalid URLs, and duplicate speaker names.
 
-To learn more about Next.js, take a look at the following resources:
+### 5. Deploy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+git add -A
+git commit -m "Update summit data"
+git push
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Vercel auto-deploys from the `master` branch.
 
-## Deploy on Vercel
+## Development
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run dev      # start dev server
+npm run build    # build static export to /out
+npm run lint     # lint
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Structure
+
+```
+app/                   # Next.js App Router pages
+  page.tsx             # Main SPA shell (schedule/speakers/saved/map tabs)
+  event/[id]/          # Event detail pages
+  speaker/[name]/      # Speaker profile pages
+components/            # Shared UI components
+data/schedule.json     # All event and speaker data
+lib/                   # Utilities and hooks
+public/speakers/       # Speaker headshot photos
+scripts/               # Admin helper scripts
+```
