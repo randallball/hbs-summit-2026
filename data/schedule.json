@@ -1,93 +1,600 @@
 [
-  { "id": "reg", "time": "8:00 – 9:00 AM", "title": "Registration & Breakfast", "location": "Klarman Hall", "type": "logistics", "speakers": [], "moderator": null },
-  { "id": "k1", "time": "9:00 – 10:00 AM", "title": "Keynote: JD Ross", "location": "Klarman Auditorium", "type": "keynote",
-    "moderator": { "name": "Professor Andu Wu" },
-    "speakers": [{ "name": "JD Ross", "title": "Co-Founder, WithCoverage", "company": "WithCoverage", "companyUrl": "https://withcoverage.com", "companyDesc": "AI-powered risk management platform replacing traditional insurance brokers. Raised $42M from Sequoia & Khosla.", "bio": "Co-founder of Opendoor ($7B) and WithCoverage. $42M raise led by Sequoia & Khosla — the first Roelof Botha + Keith Rabois partnership since PayPal. Forbes 30 Under 30.", "industry": "Insurance & AI", "linkedin": null, "photo": null }] },
-  { "id": "p1a", "time": "10:15 – 11:00 AM", "title": "Empowering SMBs through AI and Technology", "location": "Aldrich 112", "type": "panel",
-    "moderator": { "name": "Professor Chris Stanton" },
+  {
+    "id": "reg",
+    "time": "8:00 – 9:00 AM",
+    "title": "Registration & Breakfast",
+    "location": "Klarman Hall",
+    "type": "logistics",
+    "speakers": [],
+    "moderator": null
+  },
+  {
+    "id": "k1",
+    "time": "9:00 – 10:00 AM",
+    "title": "Keynote: JD Ross",
+    "location": "Klarman Auditorium",
+    "type": "keynote",
+    "moderator": {
+      "name": "Professor Andu Wu"
+    },
     "speakers": [
-      { "name": "Sami Ghoche", "title": "Co-Founder & CEO, Forethought", "company": "Forethought", "companyUrl": "https://forethought.ai", "companyDesc": "AI customer experience platform, recently acquired by Zendesk — their largest acquisition ever.", "bio": "Harvard CS grad (summa cum laude), ex-LinkedIn AI/ML. Forbes 30 Under 30. Built Forethought to Zendesk's biggest-ever acquisition.", "industry": "AI & Enterprise Software", "linkedin": null, "photo": null },
-      { "name": "Maxim Lobovsky", "title": "Co-Founder & CEO, Formlabs", "company": "Formlabs", "companyUrl": "https://formlabs.com", "companyDesc": "World's largest professional desktop 3D printing company. $2B valuation. 100,000+ printers sold.", "bio": "MIT Media Lab grad. Launched Formlabs via Kickstarter in 2011, grew it to a $2B company with 60M+ parts printed. Forbes 30 Under 30, WEF Pioneer.", "industry": "Hardware & Manufacturing", "linkedin": null, "photo": null },
-      { "name": "Kaveh Rostampor", "title": "Founder, Planhat", "company": "Planhat", "companyUrl": "https://planhat.com", "companyDesc": "B2B customer platform for managing and growing customer relationships at scale.", "bio": "Founded Planhat to help B2B companies manage customer success. Used by enterprises across Europe and the US.", "industry": "AI & Enterprise Software", "linkedin": null, "photo": null }
-    ] },
-  { "id": "p1b", "time": "10:15 – 11:00 AM", "title": "Entrepreneurship & Sustainability", "location": "Aldrich 110", "type": "panel",
-    "moderator": { "name": "Lynn Schenk", "title": "Director, HBS Business & Environment Initiative" },
+      {
+        "name": "JD Ross",
+        "title": "Co-Founder, WithCoverage",
+        "company": "WithCoverage",
+        "companyUrl": "https://withcoverage.com",
+        "companyDesc": "AI-powered risk management platform replacing traditional insurance brokers. Raised $42M from Sequoia & Khosla.",
+        "bio": "Co-founder of Opendoor ($7B) and WithCoverage. $42M raise led by Sequoia & Khosla — the first Roelof Botha + Keith Rabois partnership since PayPal. Forbes 30 Under 30.",
+        "industry": "Insurance & AI",
+        "linkedin": "https://www.linkedin.com/in/justindylanross/",
+        "photo": null
+      }
+    ]
+  },
+  {
+    "id": "p1a",
+    "time": "10:15 – 11:00 AM",
+    "title": "Empowering SMBs through AI and Technology",
+    "location": "Aldrich 112",
+    "type": "panel",
+    "moderator": {
+      "name": "Professor Chris Stanton"
+    },
     "speakers": [
-      { "name": "Nicole Poindexter", "title": "Founder, Energicity", "company": "Energicity", "companyUrl": "https://energicity.co", "companyDesc": "Mini-grid energy company powering communities across West Africa with clean electricity.", "bio": "Founded Energicity to bring affordable clean energy to off-grid communities in West Africa.", "industry": "Energy & Sustainability", "linkedin": null, "photo": null },
-      { "name": "Stephen Wakeling", "title": "Founder, Phobio", "company": "Phobio", "companyUrl": "https://phobio.com", "companyDesc": "Trade-in and buyback platform for consumer electronics, partnered with Apple and major retailers.", "bio": "Built Phobio into a leading electronics trade-in platform, partnering with Apple to reduce e-waste.", "industry": "Energy & Sustainability", "linkedin": null, "photo": null },
-      { "name": "Eric Adamson", "title": "Founder, Tortuga", "company": "Tortuga", "companyUrl": "https://tortugabackpacks.com", "companyDesc": "Direct-to-consumer travel gear company designing carry-on backpacks for urban travelers.", "bio": "Founded Tortuga to make the best carry-on travel backpacks. Built a profitable DTC brand.", "industry": "Consumer Goods", "linkedin": null, "photo": null }
-    ] },
-  { "id": "p1c", "time": "10:15 – 11:00 AM", "title": "India to the World: Building Global Software Companies", "location": "Aldrich 111", "type": "panel",
-    "moderator": { "name": "Pranav Mittal" },
+      {
+        "name": "Sami Ghoche",
+        "title": "Co-Founder & CEO, Forethought",
+        "company": "Forethought",
+        "companyUrl": "https://forethought.ai",
+        "companyDesc": "AI customer experience platform, recently acquired by Zendesk — their largest acquisition ever.",
+        "bio": "Harvard CS grad (summa cum laude), ex-LinkedIn AI/ML. Forbes 30 Under 30. Built Forethought to Zendesk's biggest-ever acquisition.",
+        "industry": "AI & Enterprise Software",
+        "linkedin": "https://www.linkedin.com/in/samighoche/",
+        "photo": null
+      },
+      {
+        "name": "Maxim Lobovsky",
+        "title": "Co-Founder & CEO, Formlabs",
+        "company": "Formlabs",
+        "companyUrl": "https://formlabs.com",
+        "companyDesc": "World's largest professional desktop 3D printing company. $2B valuation. 100,000+ printers sold.",
+        "bio": "MIT Media Lab grad. Launched Formlabs via Kickstarter in 2011, grew it to a $2B company with 60M+ parts printed. Forbes 30 Under 30, WEF Pioneer.",
+        "industry": "Hardware & Manufacturing",
+        "linkedin": "https://www.linkedin.com/in/maxim-lobovsky/",
+        "photo": null
+      },
+      {
+        "name": "Kaveh Rostampor",
+        "title": "Founder, Planhat",
+        "company": "Planhat",
+        "companyUrl": "https://planhat.com",
+        "companyDesc": "B2B customer platform for managing and growing customer relationships at scale.",
+        "bio": "Founded Planhat to help B2B companies manage customer success. Used by enterprises across Europe and the US.",
+        "industry": "AI & Enterprise Software",
+        "linkedin": "https://www.linkedin.com/in/kaveh-rostampor/",
+        "photo": null
+      }
+    ]
+  },
+  {
+    "id": "p1b",
+    "time": "10:15 – 11:00 AM",
+    "title": "Entrepreneurship & Sustainability",
+    "location": "Aldrich 110",
+    "type": "panel",
+    "moderator": {
+      "name": "Lynn Schenk",
+      "title": "Director, HBS Business & Environment Initiative"
+    },
     "speakers": [
-      { "name": "Sri", "title": "Founder, Rocketlane", "company": "Rocketlane", "companyUrl": "https://rocketlane.com", "companyDesc": "Purpose-built platform for customer onboarding, helping services teams deliver faster time-to-value.", "bio": "Founded Rocketlane to solve B2B customer onboarding. Previously at Freshworks.", "industry": "AI & Enterprise Software", "linkedin": null, "photo": null },
-      { "name": "Anshu Sharma", "title": "Founder, Skyflow", "company": "Skyflow", "companyUrl": "https://skyflow.com", "companyDesc": "Data privacy vault that protects sensitive customer data without slowing development.", "bio": "Founded Skyflow to simplify data privacy for developers. Previously VP at Salesforce, partner at Storm Ventures.", "industry": "AI & Enterprise Software", "linkedin": null, "photo": null },
-      { "name": "Dhruvil", "title": "Founder, LogiNext", "company": "LogiNext", "companyUrl": "https://loginextsolutions.com", "companyDesc": "AI-powered logistics automation platform optimizing deliveries for enterprises in 50+ countries.", "bio": "Founded LogiNext to optimize last-mile delivery logistics using AI. Operates across 50+ countries.", "industry": "Logistics & Supply Chain", "linkedin": null, "photo": null }
-    ] },
-  { "id": "p2a", "time": "11:15 AM – 12:00 PM", "title": "Sales and Growth Panel", "location": "Klarman Auditorium", "type": "panel",
-    "moderator": { "name": "Professor Lou Shipley" },
+      {
+        "name": "Nicole Poindexter",
+        "title": "Founder, Energicity",
+        "company": "Energicity",
+        "companyUrl": "https://energicity.co",
+        "companyDesc": "Mini-grid energy company powering communities across West Africa with clean electricity.",
+        "bio": "Founded Energicity to bring affordable clean energy to off-grid communities in West Africa.",
+        "industry": "Energy & Sustainability",
+        "linkedin": "https://www.linkedin.com/in/nicolepoindexter/",
+        "photo": null
+      },
+      {
+        "name": "Stephen Wakeling",
+        "title": "Founder, Phobio",
+        "company": "Phobio",
+        "companyUrl": "https://phobio.com",
+        "companyDesc": "Trade-in and buyback platform for consumer electronics, partnered with Apple and major retailers.",
+        "bio": "Built Phobio into a leading electronics trade-in platform, partnering with Apple to reduce e-waste.",
+        "industry": "Energy & Sustainability",
+        "linkedin": "https://www.linkedin.com/in/stephenwakeling/",
+        "photo": null
+      },
+      {
+        "name": "Eric Adamson",
+        "title": "Founder, Tortuga",
+        "company": "Tortuga",
+        "companyUrl": "https://tortugabackpacks.com",
+        "companyDesc": "Direct-to-consumer travel gear company designing carry-on backpacks for urban travelers.",
+        "bio": "Founded Tortuga to make the best carry-on travel backpacks. Built a profitable DTC brand.",
+        "industry": "Consumer Goods",
+        "linkedin": "https://www.linkedin.com/in/eric-adamson/",
+        "photo": null
+      }
+    ]
+  },
+  {
+    "id": "p1c",
+    "time": "10:15 – 11:00 AM",
+    "title": "India to the World: Building Global Software Companies",
+    "location": "Aldrich 111",
+    "type": "panel",
+    "moderator": {
+      "name": "Pranav Mittal"
+    },
     "speakers": [
-      { "name": "Darren Lucia", "title": "Speaker", "bio": null, "industry": "Sales & Growth", "linkedin": null, "photo": null },
-      { "name": "Dora Palfi", "title": "Co-Founder & CEO, imagiLabs", "company": "imagiLabs", "companyUrl": "https://imagilabs.com", "companyDesc": "EdTech startup teaching girls to code through a creative app and pocket-sized coding device.", "bio": "Co-founded imagiLabs to close the gender gap in tech. Forbes 30 Under 30 Europe.", "industry": "EdTech", "linkedin": null, "photo": null },
-      { "name": "Faisal Younus", "title": "Co-Founder & CEO, Pillar", "company": "Pillar", "companyDesc": "Platform connecting top talent with venture-backed startups.", "bio": "Co-founded Pillar to transform how talent connects with fast-growing startups.", "industry": "HR & Talent", "linkedin": null, "photo": null }
-    ] },
-  { "id": "p2b", "time": "11:15 AM – 12:00 PM", "title": "Consumer Goods", "location": "Aldrich 110", "type": "panel",
+      {
+        "name": "Sri",
+        "title": "Founder, Rocketlane",
+        "company": "Rocketlane",
+        "companyUrl": "https://rocketlane.com",
+        "companyDesc": "Purpose-built platform for customer onboarding, helping services teams deliver faster time-to-value.",
+        "bio": "Founded Rocketlane to solve B2B customer onboarding. Previously at Freshworks.",
+        "industry": "AI & Enterprise Software",
+        "linkedin": "https://www.linkedin.com/in/srikrishnang/",
+        "photo": null
+      },
+      {
+        "name": "Anshu Sharma",
+        "title": "Founder, Skyflow",
+        "company": "Skyflow",
+        "companyUrl": "https://skyflow.com",
+        "companyDesc": "Data privacy vault that protects sensitive customer data without slowing development.",
+        "bio": "Founded Skyflow to simplify data privacy for developers. Previously VP at Salesforce, partner at Storm Ventures.",
+        "industry": "AI & Enterprise Software",
+        "linkedin": "https://www.linkedin.com/in/toanshu/",
+        "photo": null
+      },
+      {
+        "name": "Dhruvil",
+        "title": "Founder, LogiNext",
+        "company": "LogiNext",
+        "companyUrl": "https://loginextsolutions.com",
+        "companyDesc": "AI-powered logistics automation platform optimizing deliveries for enterprises in 50+ countries.",
+        "bio": "Founded LogiNext to optimize last-mile delivery logistics using AI. Operates across 50+ countries.",
+        "industry": "Logistics & Supply Chain",
+        "linkedin": "https://www.linkedin.com/in/dhruvilsanghvi/",
+        "photo": null
+      }
+    ]
+  },
+  {
+    "id": "p2a",
+    "time": "11:15 AM – 12:00 PM",
+    "title": "Sales and Growth Panel",
+    "location": "Klarman Auditorium",
+    "type": "panel",
+    "moderator": {
+      "name": "Professor Lou Shipley"
+    },
+    "speakers": [
+      {
+        "name": "Darren Lucia",
+        "title": "Speaker",
+        "bio": null,
+        "industry": "Sales & Growth",
+        "linkedin": "https://www.linkedin.com/in/dm-lucia/",
+        "photo": null
+      },
+      {
+        "name": "Dora Palfi",
+        "title": "Co-Founder & CEO, imagiLabs",
+        "company": "imagiLabs",
+        "companyUrl": "https://imagilabs.com",
+        "companyDesc": "EdTech startup teaching girls to code through a creative app and pocket-sized coding device.",
+        "bio": "Co-founded imagiLabs to close the gender gap in tech. Forbes 30 Under 30 Europe.",
+        "industry": "EdTech",
+        "linkedin": "https://www.linkedin.com/in/dorapalfi/",
+        "photo": null
+      },
+      {
+        "name": "Faisal Younus",
+        "title": "Co-Founder & CEO, Pillar",
+        "company": "Pillar",
+        "companyDesc": "Platform connecting top talent with venture-backed startups.",
+        "bio": "Co-founded Pillar to transform how talent connects with fast-growing startups.",
+        "industry": "HR & Talent",
+        "linkedin": "https://www.linkedin.com/in/faisal-younus/",
+        "photo": null
+      }
+    ]
+  },
+  {
+    "id": "p2b",
+    "time": "11:15 AM – 12:00 PM",
+    "title": "Consumer Goods",
+    "location": "Aldrich 110",
+    "type": "panel",
     "moderator": null,
     "speakers": [
-      { "name": "Zameer Kassam", "title": "Founder, Zameer Kassam Fine Jewelry", "company": "Zameer Kassam Fine Jewelry", "companyUrl": "https://zameerkassam.com", "companyDesc": "Bespoke fine jewelry studio creating one-of-a-kind engagement rings and custom pieces.", "bio": "Created a luxury bespoke jewelry brand known for completely custom, one-of-a-kind designs.", "industry": "Consumer Goods", "linkedin": null, "photo": null },
-      { "name": "Mariah Hilton Wood", "title": "Co-Founder, Tilden", "company": "Tilden", "companyDesc": "Consumer brand in the food and beverage space.", "bio": "Co-founded Tilden, building a consumer brand in food & beverage.", "industry": "Consumer Goods", "linkedin": null, "photo": null },
-      { "name": "Josh Belinsky", "title": "Founder, Slate Milk", "company": "Slate Milk", "companyUrl": "https://slatemilk.com", "companyDesc": "High-protein chocolate milk for adults. Lactose-free, low sugar. In 10,000+ stores.", "bio": "Reinvented chocolate milk for adults — high protein, lactose-free. Now in 10,000+ retailers.", "industry": "Consumer Goods", "linkedin": null, "photo": null }
-    ] },
-  { "id": "p2c", "time": "11:15 AM – 12:00 PM", "title": "Workshop: Designing products under real startup constraints", "location": "Batten Hive 201", "type": "session", "moderator": { "name": "Alex Banaga" }, "speakers": [] },
-  { "id": "cofound", "time": "12:00 – 1:30 PM", "title": "Cofounder Matching Session", "location": "Batten 205", "type": "session", "moderator": { "name": "Rob Blaine", "title": "TNT" }, "speakers": [] },
-  { "id": "lunch", "time": "12:00 – 1:30 PM", "title": "Lunch", "location": "Batten 204", "type": "logistics", "speakers": [], "moderator": null },
-  { "id": "k2", "time": "1:30 – 2:15 PM", "title": "Keynote: Alejandro Matamala-Ortiz, Co-founder of Runway", "location": "Klarman Auditorium", "type": "keynote",
-    "moderator": { "name": "Professor Jeffrey Rayport" },
-    "speakers": [{ "name": "Alejandro Matamala-Ortiz", "title": "Co-Founder & CDO, Runway", "company": "Runway", "companyUrl": "https://runwayml.com", "companyDesc": "Applied AI research company building generative AI tools for creative professionals. Valued at $4B+.", "bio": "Co-founded Runway from a research project at NYU. Now a $4B+ generative AI company. Leads design on Gen-1, Gen-2, and Gen-3. Speaker at TechCrunch Disrupt.", "industry": "AI & Creative Tools", "linkedin": null, "photo": null }] },
-  { "id": "recruit", "time": "2:15 – 4:30 PM", "title": "Recruiting Session", "location": "Klarman Auditorium", "type": "session", "speakers": [], "moderator": null },
-  { "id": "p3a", "time": "2:30 – 3:15 PM", "title": "Entrepreneurship for Human Flourishing", "location": "Aldrich 110", "type": "panel",
-    "moderator": { "name": "Prof. Gerald Chertavian", "title": "Founder, Year Up" },
+      {
+        "name": "Zameer Kassam",
+        "title": "Founder, Zameer Kassam Fine Jewelry",
+        "company": "Zameer Kassam Fine Jewelry",
+        "companyUrl": "https://zameerkassam.com",
+        "companyDesc": "Bespoke fine jewelry studio creating one-of-a-kind engagement rings and custom pieces.",
+        "bio": "Created a luxury bespoke jewelry brand known for completely custom, one-of-a-kind designs.",
+        "industry": "Consumer Goods",
+        "linkedin": "https://www.linkedin.com/in/zameer-kassam-84932/",
+        "photo": null
+      },
+      {
+        "name": "Mariah Hilton Wood",
+        "title": "Co-Founder, Tilden",
+        "company": "Tilden",
+        "companyDesc": "Consumer brand in the food and beverage space.",
+        "bio": "Co-founded Tilden, building a consumer brand in food & beverage.",
+        "industry": "Consumer Goods",
+        "linkedin": "https://www.linkedin.com/in/mariahhiltonwood/",
+        "photo": null
+      },
+      {
+        "name": "Josh Belinsky",
+        "title": "Founder, Slate Milk",
+        "company": "Slate Milk",
+        "companyUrl": "https://slatemilk.com",
+        "companyDesc": "High-protein chocolate milk for adults. Lactose-free, low sugar. In 10,000+ stores.",
+        "bio": "Reinvented chocolate milk for adults — high protein, lactose-free. Now in 10,000+ retailers.",
+        "industry": "Consumer Goods",
+        "linkedin": "https://www.linkedin.com/in/josh-belinsky-61412871/",
+        "photo": null
+      }
+    ]
+  },
+  {
+    "id": "p2c",
+    "time": "11:15 AM – 12:00 PM",
+    "title": "Workshop: Designing products under real startup constraints",
+    "location": "Batten Hive 201",
+    "type": "session",
+    "moderator": {
+      "name": "Alex Banaga"
+    },
+    "speakers": []
+  },
+  {
+    "id": "cofound",
+    "time": "12:00 – 1:30 PM",
+    "title": "Cofounder Matching Session",
+    "location": "Batten 205",
+    "type": "session",
+    "moderator": {
+      "name": "Rob Blaine",
+      "title": "TNT"
+    },
+    "speakers": []
+  },
+  {
+    "id": "lunch",
+    "time": "12:00 – 1:30 PM",
+    "title": "Lunch",
+    "location": "Batten 204",
+    "type": "logistics",
+    "speakers": [],
+    "moderator": null
+  },
+  {
+    "id": "k2",
+    "time": "1:30 – 2:15 PM",
+    "title": "Keynote: Alejandro Matamala-Ortiz, Co-founder of Runway",
+    "location": "Klarman Auditorium",
+    "type": "keynote",
+    "moderator": {
+      "name": "Professor Jeffrey Rayport"
+    },
     "speakers": [
-      { "name": "Eric Ward", "title": "Co-Founder, AgBiome", "company": "AgBiome", "companyDesc": "Agricultural biotech discovering microbial solutions for crop protection.", "bio": "Co-founded AgBiome to apply genomics to agriculture, developing next-gen crop protection.", "industry": "Biotech & Agriculture", "linkedin": null, "photo": null },
-      { "name": "Connor Glass", "title": "Founder & CEO, Phantom Neuro", "company": "Phantom Neuro", "companyDesc": "Neurotechnology company building solutions for phantom limb pain.", "bio": "Founded Phantom Neuro to develop neurotechnology solutions for phantom limb pain and neural interfaces.", "industry": "Health & Biotech", "linkedin": null, "photo": null },
-      { "name": "Carmen Messerlian", "title": "Founder & CEO, Vie Science", "company": "Vie Science", "companyDesc": "Science-backed approaches to health, wellness, and human flourishing.", "bio": "Founded Vie Science to bring scientifically-backed approaches to human flourishing.", "industry": "Health & Biotech", "linkedin": null, "photo": null }
-    ] },
-  { "id": "p3b", "time": "2:30 – 3:15 PM", "title": "Frontier by Necessity: AI & African Startups", "location": "Aldrich 111", "type": "panel",
-    "moderator": { "name": "Bolu Akinola" },
+      {
+        "name": "Alejandro Matamala-Ortiz",
+        "title": "Co-Founder & CDO, Runway",
+        "company": "Runway",
+        "companyUrl": "https://runwayml.com",
+        "companyDesc": "Applied AI research company building generative AI tools for creative professionals. Valued at $4B+.",
+        "bio": "Co-founded Runway from a research project at NYU. Now a $4B+ generative AI company. Leads design on Gen-1, Gen-2, and Gen-3. Speaker at TechCrunch Disrupt.",
+        "industry": "AI & Creative Tools",
+        "linkedin": null,
+        "photo": null
+      }
+    ]
+  },
+  {
+    "id": "recruit",
+    "time": "2:15 – 4:30 PM",
+    "title": "Recruiting Session",
+    "location": "Klarman Auditorium",
+    "type": "session",
+    "speakers": [],
+    "moderator": null
+  },
+  {
+    "id": "p3a",
+    "time": "2:30 – 3:15 PM",
+    "title": "Entrepreneurship for Human Flourishing",
+    "location": "Aldrich 110",
+    "type": "panel",
+    "moderator": {
+      "name": "Prof. Gerald Chertavian",
+      "title": "Founder, Year Up"
+    },
     "speakers": [
-      { "name": "Razaq Ahmed", "title": "CEO, Cowrywise", "company": "Cowrywise", "companyUrl": "https://cowrywise.com", "companyDesc": "Nigerian wealth management app making investing accessible across Africa.", "bio": "Founded Cowrywise to democratize wealth management in Africa.", "industry": "Fintech", "linkedin": null, "photo": null },
-      { "name": "Dan Berlin", "title": "Founder, Rodelle (TBC)", "company": "Rodelle", "companyDesc": "Largest vanilla extract company in the US. Successfully exited.", "bio": "Built Rodelle into the largest US vanilla extract company before a successful exit.", "industry": "Consumer Goods", "linkedin": null, "photo": null }
-    ] },
-  { "id": "p3c", "time": "2:30 – 3:15 PM", "title": "AI Native Software Startups", "location": "Klarman Auditorium", "type": "panel",
-    "moderator": { "name": "Professor Lakhani" },
+      {
+        "name": "Eric Ward",
+        "title": "Co-Founder, AgBiome",
+        "company": "AgBiome",
+        "companyDesc": "Agricultural biotech discovering microbial solutions for crop protection.",
+        "bio": "Co-founded AgBiome to apply genomics to agriculture, developing next-gen crop protection.",
+        "industry": "Biotech & Agriculture",
+        "linkedin": "https://www.linkedin.com/in/ericrward/",
+        "photo": null
+      },
+      {
+        "name": "Connor Glass",
+        "title": "Founder & CEO, Phantom Neuro",
+        "company": "Phantom Neuro",
+        "companyDesc": "Neurotechnology company building solutions for phantom limb pain.",
+        "bio": "Founded Phantom Neuro to develop neurotechnology solutions for phantom limb pain and neural interfaces.",
+        "industry": "Health & Biotech",
+        "linkedin": "https://www.linkedin.com/in/connor-glass-md-010124141/",
+        "photo": null
+      },
+      {
+        "name": "Carmen Messerlian",
+        "title": "Founder & CEO, Vie Science",
+        "company": "Vie Science",
+        "companyDesc": "Science-backed approaches to health, wellness, and human flourishing.",
+        "bio": "Founded Vie Science to bring scientifically-backed approaches to human flourishing.",
+        "industry": "Health & Biotech",
+        "linkedin": "https://www.linkedin.com/in/drmesserlian/",
+        "photo": null
+      }
+    ]
+  },
+  {
+    "id": "p3b",
+    "time": "2:30 – 3:15 PM",
+    "title": "Frontier by Necessity: AI & African Startups",
+    "location": "Aldrich 111",
+    "type": "panel",
+    "moderator": {
+      "name": "Bolu Akinola"
+    },
     "speakers": [
-      { "name": "Swapnil Jain", "title": "CEO, Observe.AI", "company": "Observe.AI", "companyUrl": "https://observe.ai", "companyDesc": "AI platform transforming contact centers with real-time conversation intelligence.", "bio": "Founded Observe.AI to bring AI-powered conversation intelligence to contact centers.", "industry": "AI & Enterprise Software", "linkedin": null, "photo": null },
-      { "name": "Dan Lee", "title": "CEO & Founder, Nooks", "company": "Nooks", "companyUrl": "https://nooks.ai", "companyDesc": "AI-powered virtual sales floor helping SDR teams prospect more effectively.", "bio": "Founded Nooks to build the AI-powered virtual sales floor for outbound sales teams.", "industry": "AI & Enterprise Software", "linkedin": null, "photo": null },
-      { "name": "Arvind Satyam", "title": "Co-Founder & CCO, Pano AI", "company": "Pano AI", "companyUrl": "https://pano.ai", "companyDesc": "AI wildfire detection platform using cameras and satellite data for early warning.", "bio": "Co-founded Pano AI to detect wildfires in their earliest stages using AI and satellite imagery.", "industry": "AI & Climate", "linkedin": null, "photo": null },
-      { "name": "Sushanth Raman", "title": "Co-Founder & CEO, Pallet", "company": "Pallet", "companyDesc": "Community-powered hiring platform for curated job opportunities.", "bio": "Co-founded Pallet to reinvent hiring through community-driven talent networks.", "industry": "HR & Talent", "linkedin": null, "photo": null }
-    ] },
-  { "id": "p4a", "time": "3:30 – 4:15 PM", "title": "Prospects of Robotics Empowered by GenAI", "location": "Klarman Auditorium", "type": "panel",
-    "moderator": { "name": "Professor Rembrand Koning", "title": "HBS" },
+      {
+        "name": "Razaq Ahmed",
+        "title": "CEO, Cowrywise",
+        "company": "Cowrywise",
+        "companyUrl": "https://cowrywise.com",
+        "companyDesc": "Nigerian wealth management app making investing accessible across Africa.",
+        "bio": "Founded Cowrywise to democratize wealth management in Africa.",
+        "industry": "Fintech",
+        "linkedin": "https://www.linkedin.com/in/razaqa/",
+        "photo": null
+      },
+      {
+        "name": "Dan Berlin",
+        "title": "Founder, Rodelle (TBC)",
+        "company": "Rodelle",
+        "companyDesc": "Largest vanilla extract company in the US. Successfully exited.",
+        "bio": "Built Rodelle into the largest US vanilla extract company before a successful exit.",
+        "industry": "Consumer Goods",
+        "linkedin": "https://www.linkedin.com/in/dan-berlin/",
+        "photo": null
+      }
+    ]
+  },
+  {
+    "id": "p3c",
+    "time": "2:30 – 3:15 PM",
+    "title": "AI Native Software Startups",
+    "location": "Klarman Auditorium",
+    "type": "panel",
+    "moderator": {
+      "name": "Professor Lakhani"
+    },
     "speakers": [
-      { "name": "Jason Ma", "title": "CTO & Co-Founder, Dyna Robotics", "company": "Dyna Robotics", "companyDesc": "Building general-purpose humanoid robots powered by generative AI.", "bio": "Co-founded Dyna Robotics to build next-gen humanoid robots combining GenAI with advanced hardware.", "industry": "Robotics", "linkedin": null, "photo": null },
-      { "name": "Andrew Lonsberry", "title": "CEO & Founder, Path Robotics", "company": "Path Robotics", "companyUrl": "https://path-robotics.com", "companyDesc": "Autonomous welding robots using AI vision. Raised $100M+.", "bio": "Founded Path Robotics to make autonomous welding robots that see and adapt. Raised $100M+.", "industry": "Robotics", "linkedin": null, "photo": null },
-      { "name": "Evan Beard", "title": "CEO & Founder, Standard Bots", "company": "Standard Bots", "companyUrl": "https://standardbots.com", "companyDesc": "Making industrial robots affordable and easy for small manufacturers.", "bio": "Founded Standard Bots to make industrial robotics accessible to small manufacturers.", "industry": "Robotics", "linkedin": null, "photo": null },
-      { "name": "Peter Yu", "title": "XYZ Robotics", "company": "XYZ Robotics", "companyDesc": "Robotic picking and sorting solutions for logistics and e-commerce.", "bio": "Building robotic systems for automated warehouse picking and fulfillment.", "industry": "Robotics", "linkedin": null, "photo": null }
-    ] },
-  { "id": "p4b", "time": "3:30 – 4:15 PM", "title": "Tips & Tricks for Real Life Fundraising", "location": "Aldrich 111", "type": "panel",
-    "moderator": { "name": "Brandon Farwell", "title": "Partner, Xfund" },
+      {
+        "name": "Swapnil Jain",
+        "title": "CEO, Observe.AI",
+        "company": "Observe.AI",
+        "companyUrl": "https://observe.ai",
+        "companyDesc": "AI platform transforming contact centers with real-time conversation intelligence.",
+        "bio": "Founded Observe.AI to bring AI-powered conversation intelligence to contact centers.",
+        "industry": "AI & Enterprise Software",
+        "linkedin": "https://www.linkedin.com/in/voiceaiagent/",
+        "photo": null
+      },
+      {
+        "name": "Dan Lee",
+        "title": "CEO & Founder, Nooks",
+        "company": "Nooks",
+        "companyUrl": "https://nooks.ai",
+        "companyDesc": "AI-powered virtual sales floor helping SDR teams prospect more effectively.",
+        "bio": "Founded Nooks to build the AI-powered virtual sales floor for outbound sales teams.",
+        "industry": "AI & Enterprise Software",
+        "linkedin": "https://www.linkedin.com/in/dan9lee/",
+        "photo": null
+      },
+      {
+        "name": "Arvind Satyam",
+        "title": "Co-Founder & CCO, Pano AI",
+        "company": "Pano AI",
+        "companyUrl": "https://pano.ai",
+        "companyDesc": "AI wildfire detection platform using cameras and satellite data for early warning.",
+        "bio": "Co-founded Pano AI to detect wildfires in their earliest stages using AI and satellite imagery.",
+        "industry": "AI & Climate",
+        "linkedin": "https://www.linkedin.com/in/asatyam/",
+        "photo": null
+      },
+      {
+        "name": "Sushanth Raman",
+        "title": "Co-Founder & CEO, Pallet",
+        "company": "Pallet",
+        "companyDesc": "Community-powered hiring platform for curated job opportunities.",
+        "bio": "Co-founded Pallet to reinvent hiring through community-driven talent networks.",
+        "industry": "HR & Talent",
+        "linkedin": "https://www.linkedin.com/in/sushanth-raman/",
+        "photo": null
+      }
+    ]
+  },
+  {
+    "id": "p4a",
+    "time": "3:30 – 4:15 PM",
+    "title": "Prospects of Robotics Empowered by GenAI",
+    "location": "Klarman Auditorium",
+    "type": "panel",
+    "moderator": {
+      "name": "Professor Rembrand Koning",
+      "title": "HBS"
+    },
     "speakers": [
-      { "name": "Jordan Baker", "title": "Speaker", "bio": null, "industry": "Venture Capital", "linkedin": null, "photo": null },
-      { "name": "Shivang Raisurana", "title": "Founder & CEO, Social Physics Lab", "company": "Social Physics Lab", "companyDesc": "Computational social science for understanding human behavior at scale.", "bio": "Founded Social Physics Lab, applying computational social science to predict human behavior.", "industry": "AI & Enterprise Software", "linkedin": null, "photo": null },
-      { "name": "Rish Gupta", "title": "Co-Founder & CEO, Spot AI", "company": "Spot AI", "companyUrl": "https://spot.ai", "companyDesc": "AI camera intelligence turning existing security cameras into business insights.", "bio": "Co-founded Spot AI to turn security cameras into intelligent business tools with AI video analysis.", "industry": "AI & Enterprise Software", "linkedin": null, "photo": null }
-    ] },
-  { "id": "p4c", "time": "3:30 – 4:15 PM", "title": "Launch after HBS", "location": "Aldrich 110", "type": "panel",
+      {
+        "name": "Jason Ma",
+        "title": "CTO & Co-Founder, Dyna Robotics",
+        "company": "Dyna Robotics",
+        "companyDesc": "Building general-purpose humanoid robots powered by generative AI.",
+        "bio": "Co-founded Dyna Robotics to build next-gen humanoid robots combining GenAI with advanced hardware.",
+        "industry": "Robotics",
+        "linkedin": "https://www.linkedin.com/in/jason-ma-742224a2/",
+        "photo": null
+      },
+      {
+        "name": "Andrew Lonsberry",
+        "title": "CEO & Founder, Path Robotics",
+        "company": "Path Robotics",
+        "companyUrl": "https://path-robotics.com",
+        "companyDesc": "Autonomous welding robots using AI vision. Raised $100M+.",
+        "bio": "Founded Path Robotics to make autonomous welding robots that see and adapt. Raised $100M+.",
+        "industry": "Robotics",
+        "linkedin": "https://www.linkedin.com/in/andrew-lonsberry-32154448/",
+        "photo": null
+      },
+      {
+        "name": "Evan Beard",
+        "title": "CEO & Founder, Standard Bots",
+        "company": "Standard Bots",
+        "companyUrl": "https://standardbots.com",
+        "companyDesc": "Making industrial robots affordable and easy for small manufacturers.",
+        "bio": "Founded Standard Bots to make industrial robotics accessible to small manufacturers.",
+        "industry": "Robotics",
+        "linkedin": "https://www.linkedin.com/in/evanbeard/",
+        "photo": null
+      },
+      {
+        "name": "Peter Yu",
+        "title": "XYZ Robotics",
+        "company": "XYZ Robotics",
+        "companyDesc": "Robotic picking and sorting solutions for logistics and e-commerce.",
+        "bio": "Building robotic systems for automated warehouse picking and fulfillment.",
+        "industry": "Robotics",
+        "linkedin": "https://www.linkedin.com/in/peter-kt-yu-70960853/",
+        "photo": null
+      }
+    ]
+  },
+  {
+    "id": "p4b",
+    "time": "3:30 – 4:15 PM",
+    "title": "Tips & Tricks for Real Life Fundraising",
+    "location": "Aldrich 111",
+    "type": "panel",
+    "moderator": {
+      "name": "Brandon Farwell",
+      "title": "Partner, Xfund"
+    },
+    "speakers": [
+      {
+        "name": "Jordan Baker",
+        "title": "Speaker",
+        "bio": null,
+        "industry": "Venture Capital",
+        "linkedin": null,
+        "photo": null
+      },
+      {
+        "name": "Shivang Raisurana",
+        "title": "Founder & CEO, Social Physics Lab",
+        "company": "Social Physics Lab",
+        "companyDesc": "Computational social science for understanding human behavior at scale.",
+        "bio": "Founded Social Physics Lab, applying computational social science to predict human behavior.",
+        "industry": "AI & Enterprise Software",
+        "linkedin": "https://www.linkedin.com/in/shivang-raisurana-87823519b/",
+        "photo": null
+      },
+      {
+        "name": "Rish Gupta",
+        "title": "Co-Founder & CEO, Spot AI",
+        "company": "Spot AI",
+        "companyUrl": "https://spot.ai",
+        "companyDesc": "AI camera intelligence turning existing security cameras into business insights.",
+        "bio": "Co-founded Spot AI to turn security cameras into intelligent business tools with AI video analysis.",
+        "industry": "AI & Enterprise Software",
+        "linkedin": "https://www.linkedin.com/in/profilerish/",
+        "photo": null
+      }
+    ]
+  },
+  {
+    "id": "p4c",
+    "time": "3:30 – 4:15 PM",
+    "title": "Launch after HBS",
+    "location": "Aldrich 110",
+    "type": "panel",
     "moderator": null,
     "speakers": [
-      { "name": "Alex Zannos", "title": "Founder, Pensa", "company": "Pensa", "companyUrl": "https://pensa.co", "companyDesc": "Drone-based retail analytics using AI to track shelf inventory in real time.", "bio": "Founded Pensa to use autonomous drones and AI for real-time shelf inventory intelligence.", "industry": "AI & Retail", "linkedin": null, "photo": null },
-      { "name": "Ayna", "title": "Co-Founder, Morpho.AI", "company": "Morpho.AI", "companyDesc": "AI-powered tools for creative and design workflows.", "bio": "Co-founded Morpho.AI, building AI-powered creative tools.", "industry": "AI & Creative Tools", "linkedin": null, "photo": null }
-    ] },
-  { "id": "k3", "time": "4:30 – 5:30 PM", "title": "Keynote: Shayne Coplan, CEO of Polymarket", "location": "Klarman Auditorium", "type": "keynote",
-    "moderator": { "name": "Professor Jonathan Zittrain", "title": "Harvard Law School" },
-    "speakers": [{ "name": "Shayne Coplan", "title": "Founder & CEO, Polymarket", "company": "Polymarket", "companyUrl": "https://polymarket.com", "companyDesc": "World's largest prediction market. $9B valuation. Backed by ICE (NYSE parent), Sequoia, Peter Thiel.", "bio": "Founded Polymarket at 22 from his NYC apartment. Now the world's youngest self-made billionaire at 27. Correctly predicted Biden's withdrawal and the 2024 election. $2B investment from ICE valued the company at $9B.", "industry": "Fintech & Crypto", "linkedin": null, "photo": null }] }
+      {
+        "name": "Alex Zannos",
+        "title": "Founder, Pensa",
+        "company": "Pensa",
+        "companyUrl": "https://pensa.co",
+        "companyDesc": "Drone-based retail analytics using AI to track shelf inventory in real time.",
+        "bio": "Founded Pensa to use autonomous drones and AI for real-time shelf inventory intelligence.",
+        "industry": "AI & Retail",
+        "linkedin": "https://www.linkedin.com/in/azannos/",
+        "photo": null
+      },
+      {
+        "name": "Ayna",
+        "title": "Co-Founder, Morpho.AI",
+        "company": "Morpho.AI",
+        "companyDesc": "AI-powered tools for creative and design workflows.",
+        "bio": "Co-founded Morpho.AI, building AI-powered creative tools.",
+        "industry": "AI & Creative Tools",
+        "linkedin": "https://www.linkedin.com/in/aynaarora/",
+        "photo": null
+      }
+    ]
+  },
+  {
+    "id": "k3",
+    "time": "4:30 – 5:30 PM",
+    "title": "Keynote: Shayne Coplan, CEO of Polymarket",
+    "location": "Klarman Auditorium",
+    "type": "keynote",
+    "moderator": {
+      "name": "Professor Jonathan Zittrain",
+      "title": "Harvard Law School"
+    },
+    "speakers": [
+      {
+        "name": "Shayne Coplan",
+        "title": "Founder & CEO, Polymarket",
+        "company": "Polymarket",
+        "companyUrl": "https://polymarket.com",
+        "companyDesc": "World's largest prediction market. $9B valuation. Backed by ICE (NYSE parent), Sequoia, Peter Thiel.",
+        "bio": "Founded Polymarket at 22 from his NYC apartment. Now the world's youngest self-made billionaire at 27. Correctly predicted Biden's withdrawal and the 2024 election. $2B investment from ICE valued the company at $9B.",
+        "industry": "Fintech & Crypto",
+        "linkedin": "https://www.linkedin.com/in/shaynecoplan/",
+        "photo": null
+      }
+    ]
+  }
 ]
