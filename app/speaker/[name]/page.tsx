@@ -20,7 +20,7 @@ export async function generateStaticParams() {
   const params: { name: string }[] = []
   for (const event of typedSchedule) {
     for (const speaker of event.speakers) {
-      params.push({ name: encodeURIComponent(speaker.name) })
+      params.push({ name: speaker.name })
     }
   }
   return params
