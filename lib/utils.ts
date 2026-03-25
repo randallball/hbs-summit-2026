@@ -45,7 +45,7 @@ export interface ScheduleEvent {
   time: string
   title: string
   location: string
-  type: 'keynote' | 'panel' | 'session' | 'logistics'
+  type: 'keynote' | 'panel' | 'session' | 'logistics' | 'break'
   speakers: Speaker[]
   moderator: Moderator | null
 }

@@ -268,7 +268,7 @@
     "time": "12:00 – 1:30 PM",
     "title": "Lunch",
     "location": "Batten 204",
-    "type": "logistics",
+    "type": "break",
     "speakers": [],
     "moderator": null
   },
@@ -592,7 +592,7 @@
     "time": "5:30 – 6:30 PM",
     "title": "Reception",
     "location": "Williams Room, Spangler",
-    "type": "logistics",
+    "type": "break",
     "speakers": [],
     "moderator": null,
     "description": "Food and drinks provided."

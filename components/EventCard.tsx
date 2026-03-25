@@ -14,6 +14,7 @@ const TYPE_STYLES: Record<string, { bg: string; color: string; label: string }> 
   panel: { bg: '#f5eedd', color: '#7a5c2a', label: 'PANEL' },
   session: { bg: '#e8f0f8', color: '#2a4a7a', label: 'SESSION' },
   logistics: { bg: '#f0f0f0', color: '#666', label: 'INFO' },
+  break: { bg: '#f0f0f0', color: '#666', label: 'BREAK' },
 }
 
 export default function EventCard({ event, isSaved, onToggleSave }: EventCardProps) {

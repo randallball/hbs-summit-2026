@@ -38,7 +38,7 @@ export default function SpeakersTab({ schedule }: SpeakersTabProps) {
       'Alejandro Matamala-Ortiz': 2,
     }
     return [...filteredSpeakers].sort((a, b) => {
-      const typeOrder: Record<string, number> = { keynote: 0, panel: 1, session: 2, logistics: 3 }
+      const typeOrder: Record<string, number> = { keynote: 0, panel: 1, session: 2, logistics: 3, break: 3 }
       const typeDiff = (typeOrder[a.eventType] ?? 9) - (typeOrder[b.eventType] ?? 9)
       if (typeDiff !== 0) return typeDiff
       // Within keynotes, apply explicit order
