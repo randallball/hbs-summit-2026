@@ -1,6 +1,6 @@
 'use client'
 
-import { useRouter } from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
 import Avatar from '@/components/Avatar'
 import { Speaker, ScheduleEvent } from '@/lib/utils'
 
@@ -18,6 +18,8 @@ const TYPE_STYLES: Record<string, { bg: string; color: string; label: string }> 
 
 export default function SpeakerDetailClient({ speaker, event }: SpeakerDetailClientProps) {
   const router = useRouter()
+  const searchParams = useSearchParams()
+  const from = searchParams.get('from')
   const typeStyle = TYPE_STYLES[event.type] || TYPE_STYLES.session
 
   return (
@@ -36,7 +38,7 @@ export default function SpeakerDetailClient({ speaker, event }: SpeakerDetailCli
         }}
       >
         <button
-          onClick={() => router.back()}
+          onClick={() => from ? router.push(`/?tab=${from}`) : router.back()}
           style={{
             background: 'none',
             border: 'none',
@@ -92,30 +94,8 @@ export default function SpeakerDetailClient({ speaker, event }: SpeakerDetailCli
         </div>
 
         {/* Links */}
-        {(speaker.companyUrl || speaker.linkedin) && (
+        {speaker.linkedin && (
           <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginBottom: 24 }}>
-            {speaker.companyUrl && (
-              <a
-                href={speaker.companyUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: 6,
-                  padding: '9px 16px',
-                  border: '1.5px solid var(--crimson)',
-                  borderRadius: 8,
-                  color: 'var(--crimson)',
-                  fontWeight: 600,
-                  fontSize: 13,
-                  textDecoration: 'none',
-                  minHeight: 44,
-                }}
-              >
-                🌐 Website ↗
-              </a>
-            )}
             {speaker.linkedin && (
               <a
                 href={speaker.linkedin}

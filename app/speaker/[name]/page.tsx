@@ -1,3 +1,4 @@
+import { Suspense } from 'react'
 import { notFound } from 'next/navigation'
 import SpeakerDetailClient from './SpeakerDetailClient'
 import schedule from '@/data/schedule.json'
@@ -37,5 +38,9 @@ export default async function SpeakerPage({
 
   if (!result) notFound()
 
-  return <SpeakerDetailClient speaker={result.speaker} event={result.event} />
+  return (
+    <Suspense>
+      <SpeakerDetailClient speaker={result.speaker} event={result.event} />
+    </Suspense>
+  )
 }

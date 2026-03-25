@@ -1,6 +1,7 @@
 'use client'
 
-import { useState } from 'react'
+import { Suspense, useState } from 'react'
+import { useSearchParams } from 'next/navigation'
 import Header from '@/components/Header'
 import TabBar, { Tab } from '@/components/TabBar'
 import ScheduleTab from '@/components/ScheduleTab'
@@ -13,8 +14,14 @@ import type { ScheduleEvent } from '@/lib/utils'
 
 const typedSchedule = schedule as ScheduleEvent[]
 
-export default function Home() {
-  const [activeTab, setActiveTab] = useState<Tab>('schedule')
+const VALID_TABS: Tab[] = ['schedule', 'speakers', 'saved', 'map']
+
+function HomeInner() {
+  const searchParams = useSearchParams()
+  const tabParam = searchParams.get('tab') as Tab | null
+  const [activeTab, setActiveTab] = useState<Tab>(
+    tabParam && VALID_TABS.includes(tabParam) ? tabParam : 'schedule'
+  )
   const [savedIds, toggleSave] = useSavedEvents()
 
   return (
@@ -36,5 +43,13 @@ export default function Home() {
         )}
       </main>
     </div>
+  )
+}
+
+export default function Home() {
+  return (
+    <Suspense>
+      <HomeInner />
+    </Suspense>
   )
 }

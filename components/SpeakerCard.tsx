@@ -13,7 +13,7 @@ export default function SpeakerCard({ speaker }: SpeakerCardProps) {
 
   return (
     <div
-      onClick={() => router.push(`/speaker/${encodeURIComponent(speaker.name)}`)}
+      onClick={() => router.push(`/speaker/${encodeURIComponent(speaker.name)}?from=speakers`)}
       style={{
         background: 'white',
         border: '1px solid var(--border)',
