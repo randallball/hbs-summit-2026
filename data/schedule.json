@@ -586,5 +586,15 @@
         "photo": null
       }
     ]
+  },
+  {
+    "id": "reception",
+    "time": "5:30 – 6:30 PM",
+    "title": "Reception",
+    "location": "Williams Room, Spangler",
+    "type": "logistics",
+    "speakers": [],
+    "moderator": null,
+    "description": "Food and drinks provided."
   }
 ]
