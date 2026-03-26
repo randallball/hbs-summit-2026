@@ -73,6 +73,16 @@
         "industry": "AI & Enterprise Software",
         "linkedin": "https://www.linkedin.com/in/kaveh-rostampor/",
         "photo": null
+      },
+      {
+        "name": "Sumantro Das",
+        "title": "Co-Founder, InstaLILY AI",
+        "company": "InstaLILY AI",
+        "companyDesc": null,
+        "bio": null,
+        "industry": "AI & Enterprise Software",
+        "linkedin": null,
+        "photo": null
       }
     ]
   },
@@ -559,6 +569,50 @@
         "bio": "Co-founded Morpho.AI, building AI-powered creative tools.",
         "industry": "AI & Creative Tools",
         "linkedin": "https://www.linkedin.com/in/aynaarora/",
+        "photo": null
+      }
+    ]
+  },
+  {
+    "id": "p4d",
+    "time": "3:30 – 4:15 PM",
+    "title": "Legal Panel",
+    "location": "",
+    "type": "panel",
+    "sponsor": "Greenberg Traurig",
+    "moderator": {
+      "name": "Prashant Girinath",
+      "title": "Greenberg Traurig"
+    },
+    "speakers": [
+      {
+        "name": "Abdullah Malik",
+        "title": "Greenberg Traurig",
+        "company": "Greenberg Traurig",
+        "companyDesc": null,
+        "bio": null,
+        "industry": "Legal",
+        "linkedin": null,
+        "photo": null
+      },
+      {
+        "name": "Win Rutherfurd",
+        "title": "Greenberg Traurig",
+        "company": "Greenberg Traurig",
+        "companyDesc": null,
+        "bio": null,
+        "industry": "Legal",
+        "linkedin": null,
+        "photo": null
+      },
+      {
+        "name": "Anthony Dinatale",
+        "title": "Agent Capital",
+        "company": "Agent Capital",
+        "companyDesc": null,
+        "bio": null,
+        "industry": "Venture Capital",
+        "linkedin": null,
         "photo": null
       }
     ]
