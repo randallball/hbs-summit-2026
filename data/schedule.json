@@ -369,21 +369,21 @@
     "speakers": [
       {
         "name": "Razaq Ahmed",
-        "title": "CEO, Cowrywise",
+        "title": "Co-Founder & CEO, Cowrywise",
         "company": "Cowrywise",
         "companyUrl": "https://cowrywise.com",
-        "companyDesc": "Nigerian wealth management app making investing accessible across Africa.",
-        "bio": "Founded Cowrywise to democratize wealth management in Africa.",
+        "companyDesc": "Lagos-based wealth management platform democratizing access to savings and investment products across Africa. Backed by Y Combinator and Quona Capital.",
+        "bio": "Co-founded Cowrywise in 2017 to make investing accessible to everyday Africans — the first Nigerian wealth-tech company accepted into Y Combinator. Previously held roles at Shell, Vetiva Capital, and Meristem, and currently serves as President of CFA Society Nigeria.",
         "industry": "Fintech",
         "linkedin": "https://www.linkedin.com/in/razaqa/",
         "photo": null
       },
       {
         "name": "Dan Berlin",
-        "title": "Investor, Co-founder and former CEO, Rodelle",
+        "title": "Co-Founder & Former CEO, Rodelle",
         "company": "Rodelle",
-        "companyDesc": "Largest vanilla extract company in the US. Successfully exited.",
-        "bio": "Built Rodelle into the largest US vanilla extract company before a successful exit.",
+        "companyDesc": "Premium vanilla and specialty baking ingredients company built into a world-leading brand, acquired by Archer-Daniels-Midland (ADM) in 2018.",
+        "bio": "Built Rodelle into a world-leading vanilla brand before its acquisition by ADM in 2018. After losing his sight to cone-rod dystrophy, Dan became a celebrated endurance athlete and co-founded Team See Possibilities, a nonprofit supporting college students with vision loss.",
         "industry": "Consumer Goods",
         "linkedin": "https://www.linkedin.com/in/dan-berlin/",
         "photo": null
@@ -393,8 +393,8 @@
         "title": "Co-Founder & CEO, Axis Drone Surveys",
         "company": "Drone Ignite Africa",
         "companyUrl": "https://www.droneigniteafrica.com",
-        "companyDesc": "A leading initiative dedicated to accelerating the adoption and impact of drone, AI, and robotics technology across Africa, convening policymakers, innovators, startups, investors, and development partners across agriculture, logistics, mining, health, and infrastructure.",
-        "bio": "Co-Founder and CEO of Axis Drone Surveys, a Ghana-based aerial survey company delivering high-precision drone data solutions across agriculture, mining, infrastructure, and telecom. Winner of the Green Tech Innovation Challenge 2024, with over 500 completed surveys across Africa. Organizer of Drone Ignite Africa, a summit dedicated to accelerating drone, AI, and robotics adoption across the continent.",
+        "companyDesc": "Initiative accelerating drone, AI, and robotics adoption across Africa, convening innovators, investors, and policymakers to unlock opportunities in agriculture, logistics, infrastructure, and health.",
+        "bio": "Co-Founder and CEO of Axis Drone Surveys, a Ghana-based firm delivering drone data solutions across agriculture, mining, and infrastructure with over 500 completed surveys. Winner of the Green Tech Innovation Challenge 2024 and organizer of Drone Ignite Africa.",
         "industry": "Frontier Tech",
         "linkedin": "https://www.linkedin.com/in/derrick-annan-98023554/",
         "photo": null
