@@ -177,7 +177,7 @@ body {
     gap: 0;
     align-items: stretch;
     height: 44px;
-    justify-content: flex-start;
+    justify-content: center;
   }
 
   .tab-bar button {
@@ -208,6 +208,10 @@ body {
     overflow-y: auto;
     min-width: 0;
     background: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 32px;
   }
 
   /* Parallel sessions: grid instead of horizontal scroll */
