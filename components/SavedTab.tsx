@@ -36,7 +36,7 @@ export default function SavedTab({ schedule, savedIds, onToggleSave }: SavedTabP
           Tap the star ☆ on any event in the Schedule tab to save it here for quick access.
         </p>
         <p style={{ fontSize: 12, color: 'var(--text-muted)', margin: 0, maxWidth: 280, lineHeight: 1.5 }}>
-          Saved events are cached locally. Please save events on your mobile device for best results.
+          Saved events are stored locally on your device. Please save events on your mobile device for best results.
         </p>
       </div>
     )
