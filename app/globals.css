@@ -55,6 +55,182 @@ body {
   box-shadow: 0 0 40px rgba(0,0,0,0.08);
 }
 
+/* Mobile: sidebar wrapper is just a normal block */
+.app-sidebar {
+  display: contents;
+}
+
+/* Mobile: tab bar is sticky */
+.tab-bar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+/* ── Desktop layout ────────────────────────────────────────────── */
+@media (min-width: 900px) {
+  body {
+    background: white;
+  }
+
+  .app-shell {
+    max-width: 100%;
+    width: 100%;
+    min-height: 100dvh;
+    margin: 0;
+    flex-direction: column;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  /* Sidebar wrapper = two-row sticky top bar */
+  .app-sidebar {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: linear-gradient(180deg, #fffef8 0%, #ffffff 100%);
+    border-bottom: 2px solid var(--crimson);
+    width: 100%;
+  }
+
+  /* ── Row 1: logos (left) · title (center) · Get Tickets (right) ── */
+  .app-header {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    text-align: left !important;
+    border-bottom: 1px solid var(--border) !important;
+    padding: 10px 28px !important;
+    gap: 0 !important;
+  }
+
+  /* Logo + GT lockup — left */
+  .app-header .header-logos {
+    display: flex !important;
+    align-items: center !important;
+    gap: 12px !important;
+    margin-bottom: 0 !important;
+    flex-wrap: nowrap !important;
+    flex-shrink: 0;
+  }
+
+  .app-header .header-logos img[alt="HBS"] {
+    width: 44px !important;
+    height: 44px !important;
+  }
+
+  .app-header .header-logos img[alt="Greenberg Traurig"] {
+    height: 20px !important;
+  }
+
+  .app-header .header-divider {
+    height: 32px !important;
+  }
+
+  /* Title block — stacked, centered in the remaining space */
+  .app-header .header-title-block {
+    flex: 1;
+    align-items: center !important;
+    text-align: center !important;
+    margin-left: 0;
+    gap: 1px !important;
+  }
+
+  .app-header .header-title-block p {
+    font-size: 9px !important;
+    letter-spacing: 0.18em !important;
+    margin: 0 !important;
+  }
+
+  .app-header .header-title-block h1 {
+    font-size: 18px !important;
+    margin: 0 !important;
+  }
+
+  /* Hide tagline (the date/founders line) — no room */
+  .app-header .header-tagline {
+    display: none !important;
+  }
+
+  /* Get Tickets — far right */
+  .app-header .header-ticket-btn {
+    display: inline-block !important;
+    margin-top: 0 !important;
+    margin-left: auto !important;
+    flex-shrink: 0;
+    padding: 7px 16px !important;
+    font-size: 13px !important;
+  }
+
+  /* ── Row 2: tab nav — override the mobile sticky positioning ── */
+  .tab-bar {
+    position: static !important;
+    top: auto !important;
+    z-index: auto !important;
+    flex-direction: row !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    padding: 0 24px;
+    gap: 0;
+    align-items: stretch;
+    height: 44px;
+    justify-content: flex-start;
+  }
+
+  .tab-bar button {
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 6px !important;
+    padding: 0 18px !important;
+    border-bottom: 3px solid transparent !important;
+    border-radius: 0 !important;
+    min-height: unset !important;
+    flex: unset !important;
+    white-space: nowrap;
+    font-size: 14px;
+  }
+
+  .tab-bar button[data-active="true"] {
+    border-bottom: 3px solid var(--crimson) !important;
+    color: var(--crimson) !important;
+  }
+
+  .tab-bar .tab-label {
+    font-size: 14px !important;
+  }
+
+  /* Main content area */
+  .app-main {
+    flex: 1;
+    overflow-y: auto;
+    min-width: 0;
+    background: white;
+  }
+
+  /* Parallel sessions: grid instead of horizontal scroll */
+  .parallel-row {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 10px;
+    overflow-x: visible !important;
+    padding: 0 16px 6px !important;
+  }
+
+  .parallel-row > .parallel-spacer {
+    display: none !important;
+  }
+
+  .parallel-row > div {
+    flex: unset !important;
+    max-width: unset !important;
+    width: 100% !important;
+    scroll-snap-align: unset !important;
+  }
+}
+
 ::-webkit-scrollbar {
   width: 4px;
 }

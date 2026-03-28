@@ -182,7 +182,7 @@ export default function ScheduleTab({ schedule, savedIds, onToggleSave }: Schedu
                 </div>
               )}
 
-              {/* Parallel events — horizontal scroll row */}
+              {/* Parallel events — horizontal scroll on mobile, grid on desktop */}
               {isParallel && (
                 <div
                   style={{
@@ -194,9 +194,9 @@ export default function ScheduleTab({ schedule, savedIds, onToggleSave }: Schedu
                     WebkitOverflowScrolling: 'touch',
                     msOverflowStyle: 'none',
                   }}
-                  className="hide-scrollbar"
+                  className="hide-scrollbar parallel-row"
                 >
-                  <div style={{ flex: '0 0 16px', width: 16, minWidth: 16 }} />
+                  <div className="parallel-spacer" style={{ flex: '0 0 16px', width: 16, minWidth: 16 }} />
                   {events.map((event) => (
                     <div
                       key={event.id}
@@ -213,8 +213,7 @@ export default function ScheduleTab({ schedule, savedIds, onToggleSave }: Schedu
                       />
                     </div>
                   ))}
-                  {/* trailing spacer so last card doesn't get cut off */}
-                  <div style={{ flex: '0 0 16px', width: 16, minWidth: 16 }} />
+                  <div className="parallel-spacer" style={{ flex: '0 0 16px', width: 16, minWidth: 16 }} />
                 </div>
               )}
             </div>

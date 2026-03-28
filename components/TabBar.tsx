@@ -18,10 +18,8 @@ const TABS: { id: Tab; label: string; icon: string }[] = [
 export default function TabBar({ activeTab, onTabChange, savedCount }: TabBarProps) {
   return (
     <nav
+      className="tab-bar"
       style={{
-        position: 'sticky',
-        top: 0,
-        zIndex: 50,
         background: 'white',
         borderBottom: '1px solid var(--border)',
         display: 'flex',
@@ -34,6 +32,7 @@ export default function TabBar({ activeTab, onTabChange, savedCount }: TabBarPro
           <button
             key={tab.id}
             onClick={() => onTabChange(tab.id)}
+            data-active={isActive ? 'true' : 'false'}
             style={{
               flex: 1,
               padding: '12px 4px',
@@ -52,7 +51,7 @@ export default function TabBar({ activeTab, onTabChange, savedCount }: TabBarPro
             }}
           >
             <span style={{ fontSize: 16 }}>{tab.icon}</span>
-            <span style={{ fontSize: 11, fontWeight: isActive ? 600 : 400 }}>
+            <span className="tab-label" style={{ fontSize: 11, fontWeight: isActive ? 600 : 400 }}>
               {tab.label}
             </span>
             {tab.id === 'saved' && savedCount > 0 && (

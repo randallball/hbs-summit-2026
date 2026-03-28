@@ -26,9 +26,11 @@ function HomeInner() {
 
   return (
     <div className="app-shell">
-      <Header />
-      <TabBar activeTab={activeTab} onTabChange={setActiveTab} savedCount={savedIds.length} />
-      <main style={{ flex: 1, overflowY: 'auto' }}>
+      <div className="app-sidebar">
+        <Header />
+        <TabBar activeTab={activeTab} onTabChange={setActiveTab} savedCount={savedIds.length} />
+      </div>
+      <main className="app-main" style={{ flex: 1, overflowY: 'auto' }}>
         {activeTab === 'schedule' && (
           <ScheduleTab schedule={typedSchedule} savedIds={savedIds} onToggleSave={toggleSave} />
         )}
