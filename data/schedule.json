@@ -390,12 +390,13 @@
       },
       {
         "name": "Derrick Annan",
-        "title": "CEO, Drone Ignite Africa",
+        "title": "Co-Founder & CEO, Axis Drone Surveys",
         "company": "Drone Ignite Africa",
-        "companyDesc": null,
-        "bio": null,
+        "companyUrl": "https://www.droneigniteafrica.com",
+        "companyDesc": "A leading initiative dedicated to accelerating the adoption and impact of drone, AI, and robotics technology across Africa, convening policymakers, innovators, startups, investors, and development partners across agriculture, logistics, mining, health, and infrastructure.",
+        "bio": "Co-Founder and CEO of Axis Drone Surveys, a Ghana-based aerial survey company delivering high-precision drone data solutions across agriculture, mining, infrastructure, and telecom. Winner of the Green Tech Innovation Challenge 2024, with over 500 completed surveys across Africa. Organizer of Drone Ignite Africa, a summit dedicated to accelerating drone, AI, and robotics adoption across the continent.",
         "industry": "Frontier Tech",
-        "linkedin": null,
+        "linkedin": "https://www.linkedin.com/in/derrick-annan-98023554/",
         "photo": null
       }
     ]
