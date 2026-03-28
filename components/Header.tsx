@@ -14,8 +14,17 @@ export default function Header() {
         textAlign: 'center',
       }}
     >
-      {/* Logo placeholder */}
-      <div style={{ marginBottom: 4 }}>
+      {/* Logos row: HBS Summit + Greenberg Traurig */}
+      <div
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          gap: 16,
+          marginBottom: 4,
+          flexWrap: 'wrap',
+        }}
+      >
         <img
           src="/logo.png"
           alt="HBS"
@@ -32,6 +41,43 @@ export default function Header() {
             target.style.display = 'none'
           }}
         />
+
+        {/* Divider */}
+        <div
+          style={{
+            width: 1,
+            height: 40,
+            background: '#e0d8c8',
+          }}
+        />
+
+        {/* Greenberg Traurig sponsor lockup */}
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 3 }}>
+          <span
+            style={{
+              fontSize: 8,
+              fontWeight: 600,
+              letterSpacing: '0.12em',
+              textTransform: 'uppercase',
+              color: '#888',
+            }}
+          >
+            Sponsored by
+          </span>
+          <img
+            src="/sponsors/greenberg-traurig-black.png"
+            alt="Greenberg Traurig"
+            style={{
+              height: 28,
+              width: 'auto',
+              objectFit: 'contain',
+            }}
+            onError={(e) => {
+              const target = e.currentTarget as HTMLImageElement
+              target.style.display = 'none'
+            }}
+          />
+        </div>
       </div>
 
       <p
