@@ -228,6 +228,16 @@
         "photo": null
       },
       {
+        "name": "Mariah Hilton Wood",
+        "title": "Co-Founder, Tilden",
+        "company": "Tilden",
+        "companyDesc": "Tilden crafts award-winning non-alcoholic cocktails that deliver full flavor and sophistication without alcohol — loved by sommeliers, beverage experts, and foodies. The brand helps restaurants, bars, and venues exceed guest expectations as demand for alcohol alternatives continues to grow.",
+        "bio": "Mariah Hilton Wood brings nearly a decade of experience in supply chain, operations, and product development to Tilden, which she co-founded after hiking Kilimanjaro and trekking Patagonia. She is passionate about thoughtfully crafted gatherings and premium food and beverage experiences, and is now a girl mom.",
+        "industry": "Consumer Goods",
+        "linkedin": null,
+        "photo": null
+      },
+      {
         "name": "Josh Belinsky",
         "title": "Founder, Slate Milk",
         "company": "Slate Milk",
@@ -559,6 +569,44 @@
         "bio": "Alex Zannos holds bachelor's and master's degrees in physics and electrical engineering from Stanford University and an MBA from Harvard Business School. Before founding Pensa Technologies, she spent over a decade designing complex electronics systems—including satellites, rockets, and self-driving vehicle hardware—at companies including Astra, Apollo Fusion, and Zoox. At Pensa, she is applying her deep hardware engineering background to AI-driven automation for defense manufacturers.",
         "industry": "AI & Defense Manufacturing",
         "linkedin": "https://www.linkedin.com/in/azannos/",
+        "photo": null
+      },
+      {
+        "name": "Patrick Siaw-Asamoah",
+        "title": "Co-Founder & CEO, Substrate",
+        "company": "Substrate",
+        "companyDesc": "Substrate acquires struggling businesses, figures out what's broken alongside management and employees, and builds custom AI to fix it and transform the business. Employees share in the upside of a long-term turnaround, so the people doing the work benefit when the company gets healthy again. Each AI deployment feeds back into Substrate's own models, making the firm smarter and faster with every company it takes on.",
+        "bio": "Patrick Siaw-Asamoah (HBS '25) is the Co-Founder and CEO of Substrate. He acquires struggling businesses, works alongside their teams to diagnose what's broken, and builds custom AI to drive a turnaround — with employees sharing in the upside.",
+        "industry": "AI & Enterprise Software",
+        "linkedin": null,
+        "photo": null
+      },
+      {
+        "name": "Pierre A. Checrallah",
+        "title": "Co-Founder & CEO, Zaqa",
+        "company": "Zaqa",
+        "companyDesc": "Zaqa is the AI operator for the American industrial sector, helping manufacturers that supply the world with food, medicine, and building materials replace archaic manual workflows. Powered by reinforcement learning, Zaqa automates quoting and order entry — reducing operational overhead, eliminating errors, and helping close more business. The company has raised $1.7M and has six figures of ARR.",
+        "bio": "Pierre (HBS '25) led technology programs for $30B industrial groups across 8 countries and built an industrials sports facility to $100K in revenue before co-founding Zaqa. A computer engineer by training, he is a winner of the MIT AI Venture Studio.",
+        "industry": "AI & Enterprise Software",
+        "linkedin": null,
+        "photo": null
+      },
+      {
+        "name": "Dany Cuellar",
+        "title": "Co-Founder, Wipp",
+        "company": "Wipp",
+        "companyDesc": "Wipp builds digital twins of politicians to modernize constituent communication and repair the broken public engagement system. The platform helps people engage with public leaders at the source, stay informed on issues that matter, and become more active participants in civic life — strengthening democracy through communication that is more direct, more trustworthy, and less vulnerable to misinformation.",
+        "bio": "Dany Cuellar (HBS '25) studied Economics and Political Science and is an MIT Sundai Hacker. He co-founded Wipp to bridge the gap between elected officials and the constituents they serve through AI-powered civic technology.",
+        "industry": "AI & Civic Tech",
+        "linkedin": null,
+        "photo": null
+      },
+      {
+        "name": "Roxie Li",
+        "title": "Speaker",
+        "bio": null,
+        "industry": null,
+        "linkedin": null,
         "photo": null
       },
       {
