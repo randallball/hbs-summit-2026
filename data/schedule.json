@@ -360,7 +360,7 @@
   {
     "id": "p3b",
     "time": "2:30 – 3:15 PM",
-    "title": "Frontier by Necessity: AI & African Startups",
+    "title": "Frontier by Necessity: Infrastructure, and the Future of African Startups",
     "location": "Aldrich 111",
     "type": "panel",
     "moderator": {
@@ -380,12 +380,22 @@
       },
       {
         "name": "Dan Berlin",
-        "title": "Founder, Rodelle (TBC)",
+        "title": "Investor, Co-founder and former CEO, Rodelle",
         "company": "Rodelle",
         "companyDesc": "Largest vanilla extract company in the US. Successfully exited.",
         "bio": "Built Rodelle into the largest US vanilla extract company before a successful exit.",
         "industry": "Consumer Goods",
         "linkedin": "https://www.linkedin.com/in/dan-berlin/",
+        "photo": null
+      },
+      {
+        "name": "Derrick Annan",
+        "title": "CEO, Drone Ignite Africa",
+        "company": "Drone Ignite Africa",
+        "companyDesc": null,
+        "bio": null,
+        "industry": "Frontier Tech",
+        "linkedin": null,
         "photo": null
       }
     ]
