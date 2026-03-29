@@ -34,7 +34,7 @@
   {
     "id": "p1a",
     "time": "10:15 – 11:00 AM",
-    "title": "Empowering SMBs through AI and Technology",
+    "title": "AI & Tech for SMBs and Traditional Industries",
     "location": "Aldrich 112",
     "type": "panel",
     "moderator": {
@@ -79,7 +79,7 @@
   {
     "id": "p1b",
     "time": "10:15 – 11:00 AM",
-    "title": "Entrepreneurship & Sustainability",
+    "title": "Climate & Energy in Entrepreneurship",
     "location": "Aldrich 110",
     "type": "panel",
     "moderator": {
@@ -214,7 +214,9 @@
     "title": "Consumer Goods",
     "location": "Aldrich 110",
     "type": "panel",
-    "moderator": null,
+    "moderator": {
+      "name": "Brian Youngblood"
+    },
     "speakers": [
       {
         "name": "Zameer Kassam",
@@ -479,7 +481,7 @@
       },
       {
         "name": "William Huang",
-        "title": "Sr. Engineering Manager, Perception & Sensors, Path Robotics",
+        "title": "Head of Sensing and Embodied Intelligence, Path Robotics",
         "company": "Path Robotics",
         "companyUrl": "https://path-robotics.com",
         "companyDesc": "Path Robotics builds AI-powered autonomous welding cells for industrial manufacturers, powered by its proprietary Obsidian AI model that sees, thinks, and adapts in real time. Backed by Drive Capital, Tiger Global, and Yamaha Motor Ventures, Path addresses the acute shortage of skilled welding labor across infrastructure and defense manufacturing.",
@@ -557,9 +559,11 @@
     "id": "p4c",
     "time": "3:30 – 4:15 PM",
     "title": "Launch after HBS",
-    "location": "Aldrich 110",
+    "location": "Spangler 051",
     "type": "panel",
-    "moderator": null,
+    "moderator": {
+      "name": "Ying Xiong"
+    },
     "speakers": [
       {
         "name": "Alex Zannos",
@@ -627,18 +631,18 @@
   {
     "id": "p4d",
     "time": "3:30 – 4:15 PM",
-    "title": "Legal Panel",
-    "location": "",
+    "title": "Legal Panel: Launching Your Business — Pitfalls To Avoid As A First-Time Founder",
+    "location": "Aldrich 110",
     "type": "panel",
     "sponsor": "Greenberg Traurig",
     "moderator": {
-      "name": "Prashant Girinath",
-      "title": "Greenberg Traurig"
+      "name": "Win Rutherfurd",
+      "title": "Shareholder, Greenberg Traurig"
     },
     "speakers": [
       {
-        "name": "Abdullah Malik",
-        "title": "Greenberg Traurig",
+        "name": "Prashant Girinath",
+        "title": "Shareholder, Greenberg Traurig",
         "company": "Greenberg Traurig",
         "companyDesc": null,
         "bio": null,
@@ -647,8 +651,8 @@
         "photo": null
       },
       {
-        "name": "Win Rutherfurd",
-        "title": "Greenberg Traurig",
+        "name": "Abdullah Malik",
+        "title": "Shareholder, Greenberg Traurig",
         "company": "Greenberg Traurig",
         "companyDesc": null,
         "bio": null,
