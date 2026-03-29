@@ -179,8 +179,10 @@
     "speakers": [
       {
         "name": "Darren Lucia",
-        "title": "Speaker",
-        "bio": null,
+        "title": "Co-Founder & CEO, Rampd",
+        "company": "Rampd",
+        "companyDesc": "Rampd is a sales coaching accelerator for early-stage SaaS founders, guiding them from initial customer conversations through validation of product-market fit to $1M in annual recurring revenue. Rather than generic consulting, Rampd delivers hands-on coaching focused on building predictable, repeatable sales systems tailored to each founder's specific product and market.",
+        "bio": "Darren Lucia is a sales leader who built his go-to-market expertise at Main Street Hub — acquired by GoDaddy for $125M — and then served as Head of Sales at Nestio, a SaaS platform in real estate. Drawing on those experiences helping early-stage companies build repeatable sales motions, he co-founded Rampd to give technical founders the same playbooks that helped scale those businesses.",
         "industry": "Sales & Growth",
         "linkedin": "https://www.linkedin.com/in/dm-lucia/",
         "photo": null
@@ -190,8 +192,8 @@
         "title": "Co-Founder & CEO, imagiLabs",
         "company": "imagiLabs",
         "companyUrl": "https://imagilabs.com",
-        "companyDesc": "EdTech startup teaching girls to code through a creative app and pocket-sized coding device.",
-        "bio": "Co-founded imagiLabs to close the gender gap in tech. Forbes 30 Under 30 Europe.",
+        "companyDesc": "imagiLabs (now branded 'imagi') is a Stockholm-based EdTech startup dedicated to closing the gender gap in tech by teaching teenage girls to code through a gamified mobile app and a wearable LED accessory called the imagiCharm, which students program in Python. The platform has grown into a global community of young coders, with an accompanying browser-based Edu platform enabling schools to run group Python lessons.",
+        "bio": "Dora Palfi earned her BSc in Neuroscience with a minor in Computer Science from NYU Abu Dhabi and an MSc in Human-Computer Interaction from KTH Royal Institute of Technology in Stockholm. Before founding imagiLabs, she worked as a developer at Morgan Stanley and a UX designer at Cisco, and co-founded Women@EIT, a community for women across the European Institute of Innovation and Technology. She was named to Forbes 30 Under 30 Europe 2021 and is a Cartier Women's Initiative Fellow.",
         "industry": "EdTech",
         "linkedin": "https://www.linkedin.com/in/dorapalfi/",
         "photo": null
@@ -200,9 +202,9 @@
         "name": "Faisal Younus",
         "title": "Co-Founder & CEO, Pillar",
         "company": "Pillar",
-        "companyDesc": "Platform connecting top talent with venture-backed startups.",
-        "bio": "Co-founded Pillar to transform how talent connects with fast-growing startups.",
-        "industry": "HR & Talent",
+        "companyDesc": "Pillar is an all-in-one business platform for content creators and talent managers — often described as a 'Shopify for creators' — enabling them to sell digital products, manage brand deals, and build ecommerce storefronts. The platform serves over 75,000 creators and is widely used by sports and digital talent agencies, backed by Y Combinator.",
+        "bio": "Faisal Younus studied Applied Mathematics and Computer Science at Harvard, where he served as Co-President of Harvard Ventures, and previously worked as an Associate at Lead Edge Capital before co-founding Pillar through Y Combinator's S19 batch.",
+        "industry": "Creator Economy",
         "linkedin": "https://www.linkedin.com/in/faisal-younus/",
         "photo": null
       }
@@ -223,8 +225,8 @@
         "title": "Founder, Zameer Kassam Fine Jewelry",
         "company": "Zameer Kassam Fine Jewelry",
         "companyUrl": "https://zameerkassam.com",
-        "companyDesc": "Bespoke fine jewelry studio creating one-of-a-kind engagement rings and custom pieces.",
-        "bio": "Created a luxury bespoke jewelry brand known for completely custom, one-of-a-kind designs.",
+        "companyDesc": "Zameer Kassam Fine Jewelry is a bespoke luxury studio where every piece — engagement rings, milestone jewelry, and heirlooms — is designed entirely from scratch in close collaboration with the client over a three-to-nine-month process. The studio distinguishes itself through storytelling-driven design and an emphasis on emotional significance over commodity, earning coverage in Vogue, the New York Times, Forbes, and CNBC. It serves a global clientele and is a member of the HBS Rock 100 — the 100 fastest-growing startups founded by HBS alumni.",
+        "bio": "Zameer Kassam grew up working in his family's jewelry boutique in Canada, then built a career at McKinsey & Company, MTV Networks International, and De Beers Diamond Jewelers before earning his MBA at Harvard Business School. In 2011 he launched Zameer Kassam Fine Jewelry, channeling his belief that jewelry should carry personal meaning rather than be a transactional purchase.",
         "industry": "Consumer Goods",
         "linkedin": "https://www.linkedin.com/in/zameer-kassam-84932/",
         "photo": null
@@ -244,8 +246,8 @@
         "title": "Founder, Slate Milk",
         "company": "Slate Milk",
         "companyUrl": "https://slatemilk.com",
-        "companyDesc": "High-protein chocolate milk for adults. Lactose-free, low sugar. In 10,000+ stores.",
-        "bio": "Reinvented chocolate milk for adults — high protein, lactose-free. Now in 10,000+ retailers.",
+        "companyDesc": "Slate Milk makes high-protein, lactose-free, ultra-filtered chocolate milk for adults — delivering 20g of protein per can with a fraction of the sugar of traditional chocolate milk. Available in 10,000+ retail locations nationally including major grocery and fitness chains, the brand has sold over 15 million cans and achieved triple-digit year-over-year growth. Despite a Shark Tank rejection, Slate raised over $15M in funding to become the defining brand in premium adult chocolate milk.",
+        "bio": "Josh Belinsky co-founded Slate Milk with his college friend Manny Lubin at Northeastern University, driven by his own lactose intolerance and frustration that chocolate milk had no adult-oriented option on the market. After graduation they spent 18 months self-funding product development before launching in 2019, and despite being rejected on ABC's Shark Tank, pressed forward to build a nationally distributed brand. Belinsky was named to Forbes 30 Under 30 in 2024.",
         "industry": "Consumer Goods",
         "linkedin": "https://www.linkedin.com/in/josh-belinsky-61412871/",
         "photo": null
@@ -418,8 +420,8 @@
         "title": "CEO, Observe.AI",
         "company": "Observe.AI",
         "companyUrl": "https://observe.ai",
-        "companyDesc": "AI platform transforming contact centers with real-time conversation intelligence.",
-        "bio": "Founded Observe.AI to bring AI-powered conversation intelligence to contact centers.",
+        "companyDesc": "Observe.AI applies conversation intelligence and AI automation to contact centers, enabling real-time agent assistance, automated QA, and coaching at scale across voice and digital channels. The company has raised $214M in total funding — including a $125M Series C led by SoftBank Vision Fund 2 — and counts 150+ enterprise customers. It hit $44.2M in revenue in 2024, making it one of the most commercially scaled AI platforms in the customer service space.",
+        "bio": "Swapnil Jain is an IIT Delhi graduate who began his career building scalable systems at Twitter, where he was the first India-based employee and opened the company's India engineering office. His experience with broken customer service interactions led him to found Observe.AI in 2017 after extensive research walking the floors of contact centers in India and the Philippines. Under his leadership, Observe.AI has grown into one of the leading AI platforms for enterprise contact centers worldwide.",
         "industry": "AI & Enterprise Software",
         "linkedin": "https://www.linkedin.com/in/voiceaiagent/",
         "photo": null
@@ -429,8 +431,8 @@
         "title": "CEO & Founder, Nooks",
         "company": "Nooks",
         "companyUrl": "https://nooks.ai",
-        "companyDesc": "AI-powered virtual sales floor helping SDR teams prospect more effectively.",
-        "bio": "Founded Nooks to build the AI-powered virtual sales floor for outbound sales teams.",
+        "companyDesc": "Nooks is an AI Sales Assistant Platform that automates the most time-consuming parts of outbound sales — parallel dialing, prospect research, and rep coaching — enabling SDR teams to generate significantly more pipeline with fewer resources. The company raised $70M total ($43M Series B led by Kleiner Perkins) and counts Seismic, Fivetran, Amplitude, and Verkada among its customers. In 2024 Nooks achieved 4x ARR growth, with customers typically attributing over 70% of their sales pipeline to the platform.",
+        "bio": "Dan Lee studied AI and computer systems at Stanford, where he conducted ML research alongside his Nooks co-founders, and went on to hold machine learning roles at Scale AI and Cerebras Systems. In 2020, during the pandemic, the team began building a virtual office collaboration tool and pivoted to sales when they observed SDR teams were by far their most engaged users. Dan and the Nooks team were named Forbes 30 Under 30 AI recipients for their work redefining outbound sales.",
         "industry": "AI & Enterprise Software",
         "linkedin": "https://www.linkedin.com/in/dan9lee/",
         "photo": null
@@ -440,8 +442,8 @@
         "title": "Co-Founder & CCO, Pano AI",
         "company": "Pano AI",
         "companyUrl": "https://pano.ai",
-        "companyDesc": "AI wildfire detection platform using cameras and satellite data for early warning.",
-        "bio": "Co-founded Pano AI to detect wildfires in their earliest stages using AI and satellite imagery.",
+        "companyDesc": "Pano AI deploys high-definition 360-degree camera stations combined with AI and satellite data to detect wildfires in their earliest stages — often within minutes of ignition — and deliver real-time situational awareness to first responders, utilities, and land managers. The platform monitors nearly 20 million acres across 10 U.S. states, British Columbia, and five Australian states, serving 250+ agencies. The company raised a $44M Series B in 2025, bringing total funding to $89M.",
+        "bio": "Arvind Satyam studied engineering and finance at UNSW and earned graduate degrees from Princeton, Harvard Business School, and Harvard Kennedy School before spending over a decade at Cisco as Managing Director of Sales and Managing Director of Smart Cities & IoT. He co-founded Pano AI in 2020 to address the escalating wildfire crisis, drawing on his background in IoT and connected infrastructure. He has been designated a Technology Pioneer and Young Global Leader by the World Economic Forum.",
         "industry": "AI & Climate",
         "linkedin": "https://www.linkedin.com/in/asatyam/",
         "photo": null
@@ -450,8 +452,8 @@
         "name": "Sushanth Raman",
         "title": "Co-Founder & CEO, Pallet",
         "company": "Pallet",
-        "companyDesc": "Community-powered hiring platform for curated job opportunities.",
-        "bio": "Co-founded Pallet to reinvent hiring through community-driven talent networks.",
+        "companyDesc": "Pallet is a community-powered hiring platform that enables newsletters, creator communities, and professional networks — including those run by Lenny Rachitsky and The Pragmatic Engineer — to launch branded recruiting products and talent collectives. Over 450 companies used Pallet to reach pre-vetted, highly qualified candidates engaged with trusted communities in their field. The platform demonstrates that community context and trust can dramatically improve candidate quality compared to conventional job boards.",
+        "bio": "Sushanth Raman studied at Columbia University and worked as a product manager at Microsoft and Google before joining Retool as an engineer, giving him a cross-functional view of enterprise product development and technical execution. He co-founded Pallet in 2022 to solve a structural problem in hiring: the most valuable talent pools exist inside niche internet communities, yet traditional recruiting infrastructure has no way to access them.",
         "industry": "HR & Talent",
         "linkedin": "https://www.linkedin.com/in/sushanth-raman/",
         "photo": null
